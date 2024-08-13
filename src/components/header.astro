@@ -60,7 +60,7 @@ import Logo from "../components/logo.astro";
           </div>
         </div>
         {
-          menus.map((menu) => {
+          menus.filter(menu => menu.visible !== false).map((menu) => {
             return (
               <a
                 href={menu.url}

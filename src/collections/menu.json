@@ -9,7 +9,8 @@
 	},
 	{
 		"name": "Projects",
-		"url": "/projects"
+		"url": "/projects",
+		"visible": false
 	},
 	{
 		"name": "About",
